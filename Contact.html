@@ -7,15 +7,69 @@
 </head>
 <body>
     <hr>
-    <h1>My Contact Details</h1>
-    <p>My Fictional Address</p>
+    <h1>My Contact Details</h1><hr>
+    <p>Pinnock B Estate, Lekki, Lagos </p>
     <p>09011223344</p>
-    <p>myemail@gmail.com</p>
-    <hr>
+    <p>anistphanie42@gmail.com</p>
+    <hr><hr>
 
-    <ul>
-        <li><a href="./index.html">Home</a></li>
-    </ul>
+    <form action="mailto:anistephanie42@gmail.com" method="get">
+        <fieldset>
+            <legend><h2><i>Your Information</i></h2></legend>
 
+            <label for="name"><b>Name:</b></label>
+            <input type="text" name="name" id="">
+            <br>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" name="email" id="">
+            <br>
+            <label for="number"><b>Phone Number:</b></label>
+            <input type="tel" name="number" id="">
+            <br>
+
+            
+            <label for="gender"><b>Gender:</b></label>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label for="gender">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female">
+            <label for="gender">Female</label>
+            <br>
+            <input type="radio" name="gender" id="None">
+            <label for="gender">Rather Not Say</label>
+            <br>
+
+            <label for=""><b>Do you want to sign up?</b></label>
+            <br>
+            <input type="radio" name="sign-up" id="">
+            <label for="">Yes</label>
+            <br>
+            <input type="radio" name="sign-up" id="">
+            <label for="">No</label>
+            <br>
+
+            <label for="car"><b>Favorite Car</b></label><br>
+            <select name="car" id="">
+                <option value="None">Select</option>
+                <option value="">Mercedes Benz</option>
+                <option value="">Toyota</option>
+                <option value="">Range Rover</option>
+                <option value="">Ferrari</option>
+                <option value="">Hyundai</option>
+            </select>
+            <br><br>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Please, leave a message"></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </fieldset>
+    </form>
+    
+   <br>
+    <a href="./index.html">Homepage</a>
+   
 </body>
 </html>
